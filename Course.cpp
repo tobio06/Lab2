@@ -177,7 +177,7 @@ void CCourse::save_class()
    json class_list = _class_list;
 
    std::string file_name;
-   std::cout << "\Name of save file: ";
+   std::cout << "\nName of save file: ";
    std::cin >> file_name;
 
    std::ofstream saved_class(file_name);
